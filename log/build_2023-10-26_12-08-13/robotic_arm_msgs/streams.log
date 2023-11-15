@@ -1,0 +1,142 @@
+[0.459s] Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs -- -j8 -l8
+[0.540s] [  3%] Built target robotic_arm_msgs__cpp
+[0.553s] [ 12%] Built target robotic_arm_msgs__rosidl_generator_c
+[0.559s] [ 12%] Built target ament_cmake_python_copy_robotic_arm_msgs
+[0.608s] [ 22%] Built target robotic_arm_msgs__rosidl_typesupport_fastrtps_cpp
+[0.609s] [ 32%] Built target robotic_arm_msgs__rosidl_typesupport_introspection_cpp
+[0.612s] [ 41%] Built target robotic_arm_msgs__rosidl_typesupport_fastrtps_c
+[0.619s] [ 51%] Built target robotic_arm_msgs__rosidl_typesupport_cpp
+[0.622s] [ 61%] Built target robotic_arm_msgs__rosidl_typesupport_introspection_c
+[0.637s] [ 70%] Built target robotic_arm_msgs__rosidl_typesupport_c
+[0.672s] [ 70%] Built target robotic_arm_msgs
+[0.705s] [ 74%] Built target robotic_arm_msgs__py
+[0.735s] [ 80%] Built target robotic_arm_msgs__rosidl_generator_py
+[0.775s] [ 87%] Built target robotic_arm_msgs__rosidl_typesupport_c__pyext
+[0.781s] [ 93%] Built target robotic_arm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.793s] [100%] Built target robotic_arm_msgs__rosidl_typesupport_introspection_c__pyext
+[0.998s] running egg_info
+[1.003s] writing robotic_arm_msgs.egg-info/PKG-INFO
+[1.003s] writing dependency_links to robotic_arm_msgs.egg-info/dependency_links.txt
+[1.003s] writing top-level names to robotic_arm_msgs.egg-info/top_level.txt
+[1.005s] reading manifest file 'robotic_arm_msgs.egg-info/SOURCES.txt'
+[1.006s] writing manifest file 'robotic_arm_msgs.egg-info/SOURCES.txt'
+[1.111s] [100%] Built target ament_cmake_python_build_robotic_arm_msgs_egg
+[1.129s] Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs -- -j8 -l8
+[1.284s] Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs
+[1.296s] -- Install configuration: ""
+[1.296s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/ament_index/resource_index/rosidl_interfaces/robotic_arm_msgs
+[1.296s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs
+[1.297s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg
+[1.297s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/joint_angles.h
+[1.297s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.297s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail
+[1.298s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__struct.h
+[1.298s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__type_support.h
+[1.298s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__functions.c
+[1.298s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__functions.h
+[1.298s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/library_path.sh
+[1.298s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/library_path.dsv
+[1.298s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_generator_c.so
+[1.298s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs
+[1.298s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg
+[1.298s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.299s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail
+[1.299s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__rosidl_typesupport_fastrtps_c.h
+[1.299s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_fastrtps_c.so
+[1.299s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs
+[1.299s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg
+[1.299s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.299s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail
+[1.300s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__type_support.c
+[1.300s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__rosidl_typesupport_introspection_c.h
+[1.300s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_introspection_c.so
+[1.300s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_c.so
+[1.300s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs
+[1.300s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg
+[1.301s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/joint_angles.hpp
+[1.301s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail
+[1.302s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__builder.hpp
+[1.302s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__traits.hpp
+[1.302s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__struct.hpp
+[1.302s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs
+[1.302s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg
+[1.303s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.303s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail
+[1.303s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/dds_fastrtps
+[1.303s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[1.303s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.303s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs
+[1.303s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg
+[1.304s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail
+[1.304s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__rosidl_typesupport_introspection_cpp.hpp
+[1.304s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__type_support.cpp
+[1.304s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_introspection_cpp.so
+[1.304s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_cpp.so
+[1.304s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/pythonpath.sh
+[1.304s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/pythonpath.dsv
+[1.304s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs-0.0.0-py3.10.egg-info
+[1.305s] -- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.305s] -- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.305s] -- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.305s] -- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.305s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs
+[1.305s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/librobotic_arm_msgs__rosidl_generator_py.so
+[1.305s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/_robotic_arm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.305s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.305s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/_robotic_arm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.306s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/msg
+[1.306s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/msg/_joint_angles_s.c
+[1.306s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/msg/_joint_angles.py
+[1.306s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/msg/__init__.py
+[1.306s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/_robotic_arm_msgs_s.ep.rosidl_typesupport_c.c
+[1.306s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.306s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.306s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/__init__.py
+[1.353s] Listing '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs'...
+[1.353s] Listing '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/msg'...
+[1.363s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.364s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.364s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.365s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_generator_py.so
+[1.365s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/msg/JointAngles.idl
+[1.365s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/msg/JointAngles.msg
+[1.365s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/ament_index/resource_index/package_run_dependencies/robotic_arm_msgs
+[1.365s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/ament_index/resource_index/parent_prefix_path/robotic_arm_msgs
+[1.366s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/ament_prefix_path.sh
+[1.366s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/ament_prefix_path.dsv
+[1.366s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/path.sh
+[1.368s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/path.dsv
+[1.368s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/local_setup.bash
+[1.368s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/local_setup.sh
+[1.369s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/local_setup.zsh
+[1.370s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/local_setup.dsv
+[1.370s] -- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.dsv
+[1.371s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/ament_index/resource_index/packages/robotic_arm_msgs
+[1.371s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_generator_cExport.cmake
+[1.371s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.371s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.371s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.371s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.372s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.372s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_cExport.cmake
+[1.372s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.373s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_generator_cppExport.cmake
+[1.373s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.374s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.374s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.374s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.374s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_cppExport.cmake
+[1.374s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.374s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_generator_pyExport.cmake
+[1.375s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.375s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/rosidl_cmake-extras.cmake
+[1.375s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.375s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.375s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.376s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.376s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.376s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.377s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgsConfig.cmake
+[1.378s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgsConfig-version.cmake
+[1.378s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.xml
+[1.458s] Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs

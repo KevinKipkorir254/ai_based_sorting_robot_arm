@@ -1,0 +1,468 @@
+[1.440s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.440s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fded7623a90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fded7a61ff0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fded7a61ff0>>, mixin_verb=('build',))
+[1.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.492s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extensions ['ignore', 'ignore_ament_install']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extension 'ignore'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extension 'ignore_ament_install'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extensions ['colcon_pkg']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extension 'colcon_pkg'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extensions ['colcon_meta']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extension 'colcon_meta'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extensions ['ros']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extension 'ros'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extensions ['cmake', 'python']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extension 'cmake'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extension 'python'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extensions ['python_setup_py']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(Resorces) by extension 'python_setup_py'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extensions ['ignore', 'ignore_ament_install']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extension 'ignore'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extension 'ignore_ament_install'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extensions ['colcon_pkg']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extension 'colcon_pkg'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extensions ['colcon_meta']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extension 'colcon_meta'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extensions ['ros']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extension 'ros'
+[1.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_controllers' with type 'ros.ament_cmake' and name 'robotic_arm_controllers'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extensions ['ignore', 'ignore_ament_install']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extension 'ignore'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extension 'ignore_ament_install'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extensions ['colcon_pkg']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extension 'colcon_pkg'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extensions ['colcon_meta']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extension 'colcon_meta'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extensions ['ros']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extension 'ros'
+[1.508s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_custom_nodes' with type 'ros.ament_python' and name 'robotic_arm_custom_nodes'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extensions ['ignore', 'ignore_ament_install']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extension 'ignore'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extension 'ignore_ament_install'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extensions ['colcon_pkg']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extension 'colcon_pkg'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extensions ['colcon_meta']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extension 'colcon_meta'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extensions ['ros']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extension 'ros'
+[1.509s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_description' with type 'ros.ament_cmake' and name 'robotic_arm_description'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extensions ['ignore', 'ignore_ament_install']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extension 'ignore'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extension 'ignore_ament_install'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extensions ['colcon_pkg']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extension 'colcon_pkg'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extensions ['colcon_meta']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extension 'colcon_meta'
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extensions ['ros']
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extension 'ros'
+[1.510s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_firmware' with type 'ros.ament_cmake' and name 'robotic_arm_firmware'
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extension 'ignore'
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extension 'ignore_ament_install'
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extensions ['colcon_pkg']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extension 'colcon_pkg'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extensions ['colcon_meta']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extension 'colcon_meta'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extensions ['ros']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extension 'ros'
+[1.511s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_kinematics' with type 'ros.ament_cmake' and name 'robotic_arm_kinematics'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extension 'ignore'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extension 'ignore_ament_install'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extensions ['colcon_pkg']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extension 'colcon_pkg'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extensions ['colcon_meta']
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extension 'colcon_meta'
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extensions ['ros']
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extension 'ros'
+[1.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_msgs' with type 'ros.ament_cmake' and name 'robotic_arm_msgs'
+[1.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.653s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install
+[1.669s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 65 installed packages in /home/kevo/ws_moveit/install
+[1.685s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 346 installed packages in /opt/ros/humble
+[1.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_controllers' build argument 'cmake_args' from command line to 'None'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_controllers' build argument 'cmake_target' from command line to 'None'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.801s] DEBUG:colcon.colcon_core.verb:Building package 'robotic_arm_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers', 'merge_install': False, 'path': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_controllers', 'symlink_install': False, 'test_result_base': None}
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_custom_nodes' build argument 'cmake_args' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_custom_nodes' build argument 'cmake_target' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_custom_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_custom_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_custom_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_custom_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_custom_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_custom_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_custom_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.817s] DEBUG:colcon.colcon_core.verb:Building package 'robotic_arm_custom_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes', 'merge_install': False, 'path': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_custom_nodes', 'symlink_install': False, 'test_result_base': None}
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_description' build argument 'cmake_args' from command line to 'None'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_description' build argument 'cmake_target' from command line to 'None'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.831s] DEBUG:colcon.colcon_core.verb:Building package 'robotic_arm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description', 'merge_install': False, 'path': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_description', 'symlink_install': False, 'test_result_base': None}
+[1.846s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_firmware' build argument 'cmake_args' from command line to 'None'
+[1.846s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_firmware' build argument 'cmake_target' from command line to 'None'
+[1.846s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.846s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[1.846s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[1.846s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[1.846s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[1.846s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[1.846s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.846s] DEBUG:colcon.colcon_core.verb:Building package 'robotic_arm_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware', 'merge_install': False, 'path': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_firmware', 'symlink_install': False, 'test_result_base': None}
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_args' from command line to 'None'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_target' from command line to 'None'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.861s] DEBUG:colcon.colcon_core.verb:Building package 'robotic_arm_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics', 'merge_install': False, 'path': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_kinematics', 'symlink_install': False, 'test_result_base': None}
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_msgs' build argument 'cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_msgs' build argument 'cmake_target' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.876s] DEBUG:colcon.colcon_core.verb:Building package 'robotic_arm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs', 'merge_install': False, 'path': '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.890s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.905s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.905s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_controllers' with build type 'ament_cmake'
+[1.906s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_controllers'
+[1.924s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.925s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.925s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.006s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_custom_nodes' with build type 'ament_python'
+[2.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_custom_nodes', 'ament_prefix_path')
+[2.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes/hook/ament_prefix_path.ps1'
+[2.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes/hook/ament_prefix_path.dsv'
+[2.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes/hook/ament_prefix_path.sh'
+[2.044s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.044s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.115s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_description' with build type 'ament_cmake'
+[2.115s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_description'
+[2.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.215s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_firmware' with build type 'ament_cmake'
+[2.215s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_firmware'
+[2.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_kinematics' with build type 'ament_cmake'
+[2.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_kinematics'
+[2.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.441s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_msgs' with build type 'ament_cmake'
+[2.441s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_msgs'
+[2.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_controllers -- -j8 -l8
+[2.860s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_custom_nodes'
+[2.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description -- -j8 -l8
+[2.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware -- -j8 -l8
+[2.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics -- -j8 -l8
+[2.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs -- -j8 -l8
+[2.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_controllers -- -j8 -l8
+[3.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description -- -j8 -l8
+[3.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_controllers
+[3.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_controllers)
+[3.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_controllers
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers' for CMake module files
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers' for CMake config files
+[3.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_controllers', 'cmake_prefix_path')
+[3.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/hook/cmake_prefix_path.ps1'
+[3.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/hook/cmake_prefix_path.dsv'
+[3.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/hook/cmake_prefix_path.sh'
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/bin'
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/lib/pkgconfig/robotic_arm_controllers.pc'
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/lib/python3.10/site-packages'
+[3.149s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/bin'
+[3.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.ps1'
+[3.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.dsv'
+[3.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.sh'
+[3.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.bash'
+[3.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.zsh'
+[3.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/colcon-core/packages/robotic_arm_controllers)
+[3.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics -- -j8 -l8
+[3.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description
+[3.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_description)
+[3.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description
+[3.251s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description' for CMake module files
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description' for CMake config files
+[3.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_description', 'cmake_prefix_path')
+[3.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/hook/cmake_prefix_path.ps1'
+[3.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/hook/cmake_prefix_path.dsv'
+[3.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/hook/cmake_prefix_path.sh'
+[3.290s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/bin'
+[3.290s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/lib/pkgconfig/robotic_arm_description.pc'
+[3.291s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/lib/python3.10/site-packages'
+[3.291s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/bin'
+[3.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.ps1'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.dsv'
+[3.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.sh'
+[3.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.bash'
+[3.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.zsh'
+[3.332s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/colcon-core/packages/robotic_arm_description)
+[3.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_controllers)
+[3.398s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers' for CMake module files
+[3.400s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers' for CMake config files
+[3.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_controllers', 'cmake_prefix_path')
+[3.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/hook/cmake_prefix_path.ps1'
+[3.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/hook/cmake_prefix_path.dsv'
+[3.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/hook/cmake_prefix_path.sh'
+[3.442s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/bin'
+[3.442s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/lib/pkgconfig/robotic_arm_controllers.pc'
+[3.442s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/lib/python3.10/site-packages'
+[3.443s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/bin'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.ps1'
+[3.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.dsv'
+[3.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.sh'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.bash'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.zsh'
+[3.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/colcon-core/packages/robotic_arm_controllers)
+[3.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics
+[3.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_description)
+[3.610s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description' for CMake module files
+[3.611s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description' for CMake config files
+[3.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_description', 'cmake_prefix_path')
+[3.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/hook/cmake_prefix_path.ps1'
+[3.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/hook/cmake_prefix_path.dsv'
+[3.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/hook/cmake_prefix_path.sh'
+[3.689s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/bin'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/lib/pkgconfig/robotic_arm_description.pc'
+[3.691s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/lib/python3.10/site-packages'
+[3.691s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/bin'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.ps1'
+[3.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.dsv'
+[3.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.sh'
+[3.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.bash'
+[3.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.zsh'
+[3.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/colcon-core/packages/robotic_arm_description)
+[3.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_kinematics)
+[3.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_custom_nodes': PYTHONPATH=/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robotic_arm_custom_nodes build --build-base /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build install --record /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/install.log --single-version-externally-managed
+[3.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics
+[3.848s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics' for CMake module files
+[3.849s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics' for CMake config files
+[3.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_kinematics', 'cmake_prefix_path')
+[3.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.dsv'
+[3.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.sh'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib'
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/bin'
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/pkgconfig/robotic_arm_kinematics.pc'
+[3.917s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/python3.10/site-packages'
+[3.917s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/bin'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.ps1'
+[3.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.dsv'
+[3.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.sh'
+[3.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.bash'
+[3.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.zsh'
+[3.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/colcon-core/packages/robotic_arm_kinematics)
+[3.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware -- -j8 -l8
+[4.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs -- -j8 -l8
+[4.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware
+[4.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_kinematics)
+[4.208s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics' for CMake module files
+[4.210s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics' for CMake config files
+[4.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_kinematics', 'cmake_prefix_path')
+[4.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.ps1'
+[4.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.dsv'
+[4.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.sh'
+[4.271s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib'
+[4.271s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/bin'
+[4.271s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/pkgconfig/robotic_arm_kinematics.pc'
+[4.272s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/python3.10/site-packages'
+[4.273s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/bin'
+[4.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.ps1'
+[4.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.dsv'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.sh'
+[4.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.bash'
+[4.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.zsh'
+[4.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/colcon-core/packages/robotic_arm_kinematics)
+[4.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_firmware)
+[4.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware' for CMake module files
+[4.387s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware' for CMake config files
+[4.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_firmware', 'cmake_prefix_path')
+[4.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/hook/cmake_prefix_path.ps1'
+[4.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/hook/cmake_prefix_path.dsv'
+[4.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/hook/cmake_prefix_path.sh'
+[4.447s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/lib'
+[4.448s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/bin'
+[4.448s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/lib/pkgconfig/robotic_arm_firmware.pc'
+[4.449s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/lib/python3.10/site-packages'
+[4.449s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/bin'
+[4.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.ps1'
+[4.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.dsv'
+[4.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.sh'
+[4.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.bash'
+[4.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.zsh'
+[4.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/colcon-core/packages/robotic_arm_firmware)
+[4.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs
+[4.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_firmware)
+[4.682s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware' for CMake module files
+[4.684s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware' for CMake config files
+[4.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_firmware', 'cmake_prefix_path')
+[4.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/hook/cmake_prefix_path.ps1'
+[4.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/hook/cmake_prefix_path.dsv'
+[4.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/hook/cmake_prefix_path.sh'
+[4.716s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/lib'
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/bin'
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/lib/pkgconfig/robotic_arm_firmware.pc'
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/lib/python3.10/site-packages'
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/bin'
+[4.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.ps1'
+[4.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.dsv'
+[4.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.sh'
+[4.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.bash'
+[4.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.zsh'
+[4.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/colcon-core/packages/robotic_arm_firmware)
+[4.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_msgs)
+[4.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_msgs
+[4.791s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs' for CMake module files
+[4.792s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs' for CMake config files
+[4.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_msgs', 'cmake_prefix_path')
+[4.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/cmake_prefix_path.ps1'
+[4.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/cmake_prefix_path.dsv'
+[4.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/cmake_prefix_path.sh'
+[4.830s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib'
+[4.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_msgs', 'ld_library_path_lib')
+[4.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/ld_library_path_lib.ps1'
+[4.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/ld_library_path_lib.dsv'
+[4.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/ld_library_path_lib.sh'
+[4.861s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/bin'
+[4.861s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/pkgconfig/robotic_arm_msgs.pc'
+[4.862s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/python3.10/site-packages'
+[4.862s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/bin'
+[4.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.ps1'
+[4.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.dsv'
+[4.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.sh'
+[4.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.bash'
+[4.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.zsh'
+[4.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/colcon-core/packages/robotic_arm_msgs)
+[4.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_custom_nodes' returned '0': PYTHONPATH=/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robotic_arm_custom_nodes build --build-base /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build install --record /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/install.log --single-version-externally-managed
+[4.938s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes' for CMake module files
+[4.940s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes' for CMake config files
+[4.941s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib'
+[4.941s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/bin'
+[4.941s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/pkgconfig/robotic_arm_custom_nodes.pc'
+[4.942s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages'
+[4.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_custom_nodes', 'pythonpath')
+[4.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes/hook/pythonpath.ps1'
+[4.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes/hook/pythonpath.dsv'
+[4.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes/hook/pythonpath.sh'
+[4.991s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/bin'
+[4.991s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_custom_nodes)
+[5.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes/package.ps1'
+[5.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes/package.dsv'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes/package.sh'
+[5.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes/package.bash'
+[5.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes/package.zsh'
+[5.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/colcon-core/packages/robotic_arm_custom_nodes)
+[5.108s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_msgs)
+[5.140s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs' for CMake module files
+[5.142s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs' for CMake config files
+[5.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_msgs', 'cmake_prefix_path')
+[5.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/cmake_prefix_path.ps1'
+[5.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/cmake_prefix_path.dsv'
+[5.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/cmake_prefix_path.sh'
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib'
+[5.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_msgs', 'ld_library_path_lib')
+[5.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/ld_library_path_lib.ps1'
+[5.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/ld_library_path_lib.dsv'
+[5.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/hook/ld_library_path_lib.sh'
+[5.232s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/bin'
+[5.232s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/pkgconfig/robotic_arm_msgs.pc'
+[5.233s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/python3.10/site-packages'
+[5.233s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/bin'
+[5.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.ps1'
+[5.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.dsv'
+[5.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.sh'
+[5.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.bash'
+[5.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.zsh'
+[5.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/colcon-core/packages/robotic_arm_msgs)
+[5.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.273s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.403s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.404s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.405s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.406s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.406s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[5.407s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.444s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/local_setup.ps1'
+[5.446s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/_local_setup_util_ps1.py'
+[5.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/setup.ps1'
+[5.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/local_setup.sh'
+[5.481s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/_local_setup_util_sh.py'
+[5.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/setup.sh'
+[5.516s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/local_setup.bash'
+[5.517s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/setup.bash'
+[5.544s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/local_setup.zsh'
+[5.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/setup.zsh'

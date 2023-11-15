@@ -1,0 +1,46 @@
+[3.291s] Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_custom_nodes': PYTHONPATH=/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robotic_arm_custom_nodes build --build-base /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build install --record /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/install.log --single-version-externally-managed
+[3.967s] running egg_info
+[3.968s] creating ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info
+[3.969s] writing ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/PKG-INFO
+[3.969s] writing dependency_links to ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/dependency_links.txt
+[3.970s] writing entry points to ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/entry_points.txt
+[3.970s] writing requirements to ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/requires.txt
+[3.970s] writing top-level names to ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/top_level.txt
+[3.971s] writing manifest file '../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[3.976s] reading manifest file '../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[3.978s] writing manifest file '../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[3.978s] running build
+[3.978s] running build_py
+[3.978s] creating /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build
+[3.979s] creating /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib
+[3.979s] creating /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes
+[3.979s] copying robotic_arm_custom_nodes/fk_test_node.py -> /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes
+[3.980s] copying robotic_arm_custom_nodes/inverse_kinematics_node.py -> /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes
+[3.980s] copying robotic_arm_custom_nodes/kinematics_solver.py -> /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes
+[3.980s] copying robotic_arm_custom_nodes/__init__.py -> /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes
+[3.980s] running install
+[3.990s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.990s]   warnings.warn(
+[3.991s] running install_lib
+[3.992s] creating /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes
+[3.992s] copying /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes/fk_test_node.py -> /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes
+[3.992s] copying /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes/inverse_kinematics_node.py -> /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes
+[3.992s] copying /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes/kinematics_solver.py -> /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes
+[3.993s] copying /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes/__init__.py -> /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes
+[3.993s] byte-compiling /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes/fk_test_node.py to fk_test_node.cpython-310.pyc
+[3.995s] byte-compiling /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes/inverse_kinematics_node.py to inverse_kinematics_node.cpython-310.pyc
+[3.996s] byte-compiling /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes/kinematics_solver.py to kinematics_solver.cpython-310.pyc
+[3.997s] byte-compiling /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes/__init__.py to __init__.cpython-310.pyc
+[3.997s] running install_data
+[3.999s] creating /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/ament_index
+[3.999s] creating /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/ament_index/resource_index
+[3.999s] creating /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/ament_index/resource_index/packages
+[4.000s] copying resource/robotic_arm_custom_nodes -> /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/ament_index/resource_index/packages
+[4.000s] copying package.xml -> /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes
+[4.000s] running install_egg_info
+[4.004s] Copying ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info to /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes-0.0.0-py3.10.egg-info
+[4.005s] running install_scripts
+[4.044s] Installing fk_test_node script to /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/robotic_arm_custom_nodes
+[4.045s] Installing ik_node script to /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/robotic_arm_custom_nodes
+[4.046s] writing list of installed files to '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/install.log'
+[4.111s] Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_custom_nodes' returned '0': PYTHONPATH=/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robotic_arm_custom_nodes build --build-base /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build install --record /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/install.log --single-version-externally-managed

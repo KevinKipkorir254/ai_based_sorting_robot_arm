@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description
+-- Install configuration: ""
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/link_1.stl
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/base_link.stl
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/gripper_finger_1.stl
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/waist.stl
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/gripper_finger_2.stl
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/base.stl
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/gripper_base.stl
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/link_2.stl
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm.trans
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm.xacro
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm.gazebo
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/materials.xacro
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm_gazebo.xacro
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm_urdf.urdf
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm_controllers.xacro
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/launch
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/launch/robot_arm_gazebo.launch.py
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/launch/robot_arm_display.launch.py
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/package_run_dependencies/robotic_arm_description
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/parent_prefix_path/robotic_arm_description
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/ament_prefix_path.sh
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/ament_prefix_path.dsv
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/path.sh
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/path.dsv
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.bash
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.sh
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.zsh
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.dsv
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.dsv
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/packages/robotic_arm_description
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/cmake/robotic_arm_descriptionConfig.cmake
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/cmake/robotic_arm_descriptionConfig-version.cmake
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.xml

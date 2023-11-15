@@ -1,0 +1,40 @@
+[0.843s] Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description -- -j8 -l8
+[0.896s] Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description -- -j8 -l8
+[1.077s] Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description
+[1.096s] -- Install configuration: ""
+[1.096s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes
+[1.096s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/link_1.stl
+[1.097s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/base_link.stl
+[1.097s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/gripper_finger_1.stl
+[1.097s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/waist.stl
+[1.097s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/gripper_finger_2.stl
+[1.097s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/base.stl
+[1.098s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/gripper_base.stl
+[1.098s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/link_2.stl
+[1.098s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf
+[1.098s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm.trans
+[1.098s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm.xacro
+[1.098s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm.gazebo
+[1.098s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/materials.xacro
+[1.098s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm_gazebo.xacro
+[1.098s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm_urdf.urdf
+[1.099s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm_controllers.xacro
+[1.099s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/launch
+[1.099s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/launch/robot_arm_gazebo.launch.py
+[1.099s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/launch/robot_arm_display.launch.py
+[1.099s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/package_run_dependencies/robotic_arm_description
+[1.099s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/parent_prefix_path/robotic_arm_description
+[1.099s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/ament_prefix_path.sh
+[1.099s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/ament_prefix_path.dsv
+[1.100s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/path.sh
+[1.100s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/path.dsv
+[1.100s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.bash
+[1.100s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.sh
+[1.100s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.zsh
+[1.101s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.dsv
+[1.101s] -- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.dsv
+[1.101s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/packages/robotic_arm_description
+[1.102s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/cmake/robotic_arm_descriptionConfig.cmake
+[1.102s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/cmake/robotic_arm_descriptionConfig-version.cmake
+[1.102s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.xml
+[1.102s] Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_description

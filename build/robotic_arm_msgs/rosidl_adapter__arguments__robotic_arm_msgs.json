@@ -1,0 +1,6 @@
+{
+  "package_name": "robotic_arm_msgs",
+  "non_idl_tuples": [
+    "/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_msgs:msg/JointAngles.msg"
+  ]
+}

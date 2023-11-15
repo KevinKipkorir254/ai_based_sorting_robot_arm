@@ -1,0 +1,9 @@
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_moveit_config/CMakeFiles/uninstall.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_moveit_config/CMakeFiles/robotic_arm_moveit_config_uninstall.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_moveit_config/CMakeFiles/test.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_moveit_config/CMakeFiles/edit_cache.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_moveit_config/CMakeFiles/rebuild_cache.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_moveit_config/CMakeFiles/list_install_components.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_moveit_config/CMakeFiles/install.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_moveit_config/CMakeFiles/install/local.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_moveit_config/CMakeFiles/install/strip.dir

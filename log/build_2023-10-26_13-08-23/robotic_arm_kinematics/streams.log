@@ -1,0 +1,23 @@
+[0.478s] Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics -- -j8 -l8
+[0.528s] [35m[1mConsolidate compiler generated dependencies of target kinematics_node[0m
+[0.559s] [100%] Built target kinematics_node
+[0.671s] Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics -- -j8 -l8
+[0.775s] Invoking command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics
+[0.894s] -- Install configuration: ""
+[0.894s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/robotic_arm_kinematics/kinematics_node
+[0.894s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/ament_index/resource_index/package_run_dependencies/robotic_arm_kinematics
+[0.895s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/ament_index/resource_index/parent_prefix_path/robotic_arm_kinematics
+[0.895s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/ament_prefix_path.sh
+[0.895s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/ament_prefix_path.dsv
+[0.896s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/path.sh
+[0.897s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/path.dsv
+[0.899s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.bash
+[0.899s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.sh
+[0.899s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.zsh
+[0.902s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.dsv
+[0.902s] -- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.dsv
+[0.902s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/ament_index/resource_index/packages/robotic_arm_kinematics
+[0.902s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/cmake/robotic_arm_kinematicsConfig.cmake
+[0.903s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/cmake/robotic_arm_kinematicsConfig-version.cmake
+[0.903s] -- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.xml
+[0.980s] Invoked command in '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics

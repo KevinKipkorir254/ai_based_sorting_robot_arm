@@ -1,0 +1,11 @@
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware/CMakeFiles/uninstall.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware/CMakeFiles/robotic_arm_firmware_uninstall.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware/CMakeFiles/ament_cmake_python_copy_robotic_arm_firmware.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware/CMakeFiles/ament_cmake_python_build_robotic_arm_firmware_egg.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware/CMakeFiles/test.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware/CMakeFiles/edit_cache.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware/CMakeFiles/rebuild_cache.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware/CMakeFiles/list_install_components.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware/CMakeFiles/install.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware/CMakeFiles/install/local.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_firmware/CMakeFiles/install/strip.dir
