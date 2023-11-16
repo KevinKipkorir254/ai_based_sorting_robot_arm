@@ -133,8 +133,8 @@ class KDL_publisher : public rclcpp::Node
         pos_goal.M = KDL::Rotation::RPY( 0.0, 0.0, 0.0);
         pos_goal.p = KDL::Vector( point.x, point.y, point.z);
         retval = solver.CartToJnt(q_init, pos_goal,q_sol);
-        // msg.data = {(float)q_sol(1), (float)q_sol(2), (float)q_sol(3), (float)q_sol(4)};
-        // publisher_->publish(msg);
+        msg.data = {(float)q_sol(0), (float)q_sol(1), (float)q_sol(2), (float)q_sol(3)};
+        publisher_->publish(msg);
         RCLCPP_INFO(this->get_logger(), "Done");
       
     }
