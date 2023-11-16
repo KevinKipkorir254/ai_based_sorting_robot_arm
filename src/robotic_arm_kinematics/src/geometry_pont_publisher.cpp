@@ -30,7 +30,7 @@ class MinimalPublisher : public rclcpp::Node
       //auto message = std_msgs::msg::String();
       auto message = geometry_msgs::msg::Point();
       message.x = 0.0;
-      message.y = 0.1;
+      message.y = -0.1;
       message.z = 0.1;
       RCLCPP_INFO(this->get_logger(), "Publishing: '%f', '%f', '%f'", message.x, message.y, message.z);
       publisher_->publish(message);

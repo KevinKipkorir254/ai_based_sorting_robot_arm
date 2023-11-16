@@ -4,6 +4,7 @@
 <xacro:include filename="$(find robotic_arm_description)/urdf/materials.xacro" />
 <xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm.trans" />
 <xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm_gazebo.xacro"/>
+<xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm_controllers.xacro"/>
 
 <!-- Properties -->
 <xacro:property name="PI" value="1.570796"/>

@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target ros_arm_kdl[0m
+[ 66%] Built target geometry_point_subscriber
+[ 66%] Built target geometry_pont_publisher
+[ 83%] [32mBuilding CXX object CMakeFiles/ros_arm_kdl.dir/src/robotic_arm_kdl.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ros_arm_kdl[0m
+[100%] Built target ros_arm_kdl
+-- Install configuration: ""
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/robotic_arm_kinematics/ros_arm_kdl
+-- Set runtime path of "/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/robotic_arm_kinematics/ros_arm_kdl" to ""
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/robotic_arm_kinematics/geometry_pont_publisher
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/robotic_arm_kinematics/geometry_point_subscriber
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/ament_index/resource_index/package_run_dependencies/robotic_arm_kinematics
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/ament_index/resource_index/parent_prefix_path/robotic_arm_kinematics
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/path.sh
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/path.dsv
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.bash
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.sh
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.zsh
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.dsv
+-- Installing: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.dsv
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/ament_index/resource_index/packages/robotic_arm_kinematics
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/cmake/robotic_arm_kinematicsConfig.cmake
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/cmake/robotic_arm_kinematicsConfig-version.cmake
+-- Up-to-date: /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.xml

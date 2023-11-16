@@ -6,7 +6,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <kdl_parser/kdl_parser.hpp>
 #include "std_msgs/msg/string.hpp"
-#include <std_msgs/msg/float32_multi_array.hpp>
+#include <std_msgs/msg/float64_multi_array.hpp>
 #include <geometry_msgs/msg/point.hpp>
 #include <ament_index_cpp/get_package_share_directory.hpp>
 #include <urdf_parser/urdf_parser.h>
@@ -31,7 +31,7 @@ class KDL_publisher : public rclcpp::Node
     KDL_publisher()
     : Node("kdl_publisher"), count_(0)
     {
-      publisher_ = this->create_publisher<std_msgs::msg::Float32MultiArray>("result", 10);
+      publisher_ = this->create_publisher<std_msgs::msg::Float64MultiArray>("/robot_joints_joint_trajectory_controller/commands", 10);
       subscription_ = this->create_subscription<geometry_msgs::msg::Point>(
       "topic", 10, std::bind(&KDL_publisher::compute_ik_and_publish, this, _1));
       build_tree();
@@ -124,7 +124,7 @@ class KDL_publisher : public rclcpp::Node
     {
               
 	      int n = kdl_chain.getNrOfJoints();
-        auto msg = std_msgs::msg::Float32MultiArray();
+        auto msg = std_msgs::msg::Float64MultiArray();
         KDL::JntArray q_(n);
         KDL::JntArray q_init(n);
         KDL::JntArray q_sol(n);
@@ -145,7 +145,7 @@ class KDL_publisher : public rclcpp::Node
     KDL::Frame pos_goal;
     int retval;
     rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<std_msgs::msg::Float32MultiArray>::SharedPtr publisher_;
+    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr publisher_;
     rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr subscription_;
     size_t count_;
 };
