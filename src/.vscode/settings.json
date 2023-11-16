@@ -79,5 +79,6 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_controllers"
 }

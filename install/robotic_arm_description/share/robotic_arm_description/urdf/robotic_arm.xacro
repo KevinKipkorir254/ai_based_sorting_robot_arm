@@ -198,7 +198,7 @@
   <child link="waist"/>
   <axis xyz="0.0 0.0 1.0"/>
   <dynamics damping="10.0" friction="2.0"/>
-  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+  <limit upper="3.14" lower="-3.14" effort="100" velocity="100"/>
 </joint>
 
 <joint name="waist_link1_joint" type="revolute">
@@ -207,7 +207,7 @@
   <child link="link_1"/>
   <axis xyz="1.0 0.0 -0.0"/>
   <dynamics damping="10.0" friction="2.0"/>
-  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+  <limit upper="3.14" lower="-3.14" effort="100" velocity="100"/>
 </joint>
 
 <joint name="link1_link2_joint" type="revolute">
@@ -216,7 +216,7 @@
   <child link="link_2"/>
   <axis xyz="-1.0 0.0 -0.0"/>
   <dynamics damping="10.0" friction="2.0"/>
-  <limit upper="3.141593" lower="0.0" effort="100" velocity="100"/>
+  <limit upper="3.14" lower="-3.14" effort="100" velocity="100"/>
 </joint>
 
 <joint name="link2_gripper_base_joint" type="revolute">
@@ -225,7 +225,7 @@
   <child link="gripper_base"/>
   <axis xyz="1.0 0.0 0.0"/>
   <dynamics damping="10.0" friction="2.0"/>
-  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+  <limit upper="3.14" lower="-3.14" effort="100" velocity="100"/>
 </joint>
 
 <joint name="right_gripper_joint" type="revolute">

@@ -23,6 +23,7 @@
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/launch/moveit_rviz.launch.py
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/joint_limits.yaml
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/pilz_cartesian_limits.yaml
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/sensors_3d.yaml
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/moveit_controllers.yaml
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.ros2_control.xacro
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/config/robotic_arm.srdf

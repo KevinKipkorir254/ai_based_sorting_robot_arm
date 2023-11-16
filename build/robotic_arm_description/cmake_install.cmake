@@ -47,6 +47,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_description/meshes"
     "/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_description/urdf"
     "/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_description/launch"
+    "/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/src/robotic_arm_description/rviz"
     )
 endif()
 

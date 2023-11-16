@@ -1,6 +1,7 @@
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/uninstall.dir
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/robotic_arm_kinematics_uninstall.dir
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/kinematics_node.dir
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/ros_arm_kdl.dir
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/test.dir
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/edit_cache.dir
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/rebuild_cache.dir

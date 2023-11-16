@@ -1,1 +1,1 @@
-rclcpp;std_msgs;trajectory_msgs;ament_lint_auto;ament_lint_common
+trajectory_msgs;rclcpp;std_msgs;ament_index_cpp;kdl_parser;urdf;urdfdom;orocos_kdl_vendor;robotic_arm_description;ament_lint_auto;ament_lint_common

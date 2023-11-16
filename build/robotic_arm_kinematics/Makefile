@@ -210,6 +210,19 @@ kinematics_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematics_node.dir/build.make CMakeFiles/kinematics_node.dir/build
 .PHONY : kinematics_node/fast
 
+#=============================================================================
+# Target rules for targets named ros_arm_kdl
+
+# Build rule for target.
+ros_arm_kdl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_arm_kdl
+.PHONY : ros_arm_kdl
+
+# fast build rule for target.
+ros_arm_kdl/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_arm_kdl.dir/build.make CMakeFiles/ros_arm_kdl.dir/build
+.PHONY : ros_arm_kdl/fast
+
 src/kinematics_node.o: src/kinematics_node.cpp.o
 .PHONY : src/kinematics_node.o
 
@@ -234,6 +247,30 @@ src/kinematics_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematics_node.dir/build.make CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.s
 .PHONY : src/kinematics_node.cpp.s
 
+src/robotic_arm_kdl.o: src/robotic_arm_kdl.cpp.o
+.PHONY : src/robotic_arm_kdl.o
+
+# target to build an object file
+src/robotic_arm_kdl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_arm_kdl.dir/build.make CMakeFiles/ros_arm_kdl.dir/src/robotic_arm_kdl.cpp.o
+.PHONY : src/robotic_arm_kdl.cpp.o
+
+src/robotic_arm_kdl.i: src/robotic_arm_kdl.cpp.i
+.PHONY : src/robotic_arm_kdl.i
+
+# target to preprocess a source file
+src/robotic_arm_kdl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_arm_kdl.dir/build.make CMakeFiles/ros_arm_kdl.dir/src/robotic_arm_kdl.cpp.i
+.PHONY : src/robotic_arm_kdl.cpp.i
+
+src/robotic_arm_kdl.s: src/robotic_arm_kdl.cpp.s
+.PHONY : src/robotic_arm_kdl.s
+
+# target to generate assembly for a file
+src/robotic_arm_kdl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_arm_kdl.dir/build.make CMakeFiles/ros_arm_kdl.dir/src/robotic_arm_kdl.cpp.s
+.PHONY : src/robotic_arm_kdl.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... robotic_arm_kinematics_uninstall"
 	@echo "... uninstall"
 	@echo "... kinematics_node"
+	@echo "... ros_arm_kdl"
 	@echo "... src/kinematics_node.o"
 	@echo "... src/kinematics_node.i"
 	@echo "... src/kinematics_node.s"
+	@echo "... src/robotic_arm_kdl.o"
+	@echo "... src/robotic_arm_kdl.i"
+	@echo "... src/robotic_arm_kdl.s"
 .PHONY : help
 
 
