@@ -14,8 +14,6 @@
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
   
-  
-  <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>ament_index_cpp</depend>
   <depend>kdl_parser</depend>
@@ -23,6 +21,10 @@
   <depend>urdfdom</depend>
   <depend>orocos_kdl_vendor</depend>
   <depend>robotic_arm_description</depend>
+
+  <build_depend>rclcpp</build_depend>
+  <exec_depend>rclcpp</exec_depend>
+
 
   <export>
     <build_type>ament_cmake</build_type>

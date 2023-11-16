@@ -198,19 +198,6 @@ robotic_arm_kinematics_uninstall/fast:
 .PHONY : robotic_arm_kinematics_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named kinematics_node
-
-# Build rule for target.
-kinematics_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kinematics_node
-.PHONY : kinematics_node
-
-# fast build rule for target.
-kinematics_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematics_node.dir/build.make CMakeFiles/kinematics_node.dir/build
-.PHONY : kinematics_node/fast
-
-#=============================================================================
 # Target rules for targets named ros_arm_kdl
 
 # Build rule for target.
@@ -223,29 +210,79 @@ ros_arm_kdl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_arm_kdl.dir/build.make CMakeFiles/ros_arm_kdl.dir/build
 .PHONY : ros_arm_kdl/fast
 
-src/kinematics_node.o: src/kinematics_node.cpp.o
-.PHONY : src/kinematics_node.o
+#=============================================================================
+# Target rules for targets named geometry_pont_publisher
+
+# Build rule for target.
+geometry_pont_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geometry_pont_publisher
+.PHONY : geometry_pont_publisher
+
+# fast build rule for target.
+geometry_pont_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_pont_publisher.dir/build.make CMakeFiles/geometry_pont_publisher.dir/build
+.PHONY : geometry_pont_publisher/fast
+
+#=============================================================================
+# Target rules for targets named geometry_point_subscriber
+
+# Build rule for target.
+geometry_point_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geometry_point_subscriber
+.PHONY : geometry_point_subscriber
+
+# fast build rule for target.
+geometry_point_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_point_subscriber.dir/build.make CMakeFiles/geometry_point_subscriber.dir/build
+.PHONY : geometry_point_subscriber/fast
+
+src/geometry_point_subscriber.o: src/geometry_point_subscriber.cpp.o
+.PHONY : src/geometry_point_subscriber.o
 
 # target to build an object file
-src/kinematics_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematics_node.dir/build.make CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.o
-.PHONY : src/kinematics_node.cpp.o
+src/geometry_point_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_point_subscriber.dir/build.make CMakeFiles/geometry_point_subscriber.dir/src/geometry_point_subscriber.cpp.o
+.PHONY : src/geometry_point_subscriber.cpp.o
 
-src/kinematics_node.i: src/kinematics_node.cpp.i
-.PHONY : src/kinematics_node.i
+src/geometry_point_subscriber.i: src/geometry_point_subscriber.cpp.i
+.PHONY : src/geometry_point_subscriber.i
 
 # target to preprocess a source file
-src/kinematics_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematics_node.dir/build.make CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.i
-.PHONY : src/kinematics_node.cpp.i
+src/geometry_point_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_point_subscriber.dir/build.make CMakeFiles/geometry_point_subscriber.dir/src/geometry_point_subscriber.cpp.i
+.PHONY : src/geometry_point_subscriber.cpp.i
 
-src/kinematics_node.s: src/kinematics_node.cpp.s
-.PHONY : src/kinematics_node.s
+src/geometry_point_subscriber.s: src/geometry_point_subscriber.cpp.s
+.PHONY : src/geometry_point_subscriber.s
 
 # target to generate assembly for a file
-src/kinematics_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematics_node.dir/build.make CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.s
-.PHONY : src/kinematics_node.cpp.s
+src/geometry_point_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_point_subscriber.dir/build.make CMakeFiles/geometry_point_subscriber.dir/src/geometry_point_subscriber.cpp.s
+.PHONY : src/geometry_point_subscriber.cpp.s
+
+src/geometry_pont_publisher.o: src/geometry_pont_publisher.cpp.o
+.PHONY : src/geometry_pont_publisher.o
+
+# target to build an object file
+src/geometry_pont_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_pont_publisher.dir/build.make CMakeFiles/geometry_pont_publisher.dir/src/geometry_pont_publisher.cpp.o
+.PHONY : src/geometry_pont_publisher.cpp.o
+
+src/geometry_pont_publisher.i: src/geometry_pont_publisher.cpp.i
+.PHONY : src/geometry_pont_publisher.i
+
+# target to preprocess a source file
+src/geometry_pont_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_pont_publisher.dir/build.make CMakeFiles/geometry_pont_publisher.dir/src/geometry_pont_publisher.cpp.i
+.PHONY : src/geometry_pont_publisher.cpp.i
+
+src/geometry_pont_publisher.s: src/geometry_pont_publisher.cpp.s
+.PHONY : src/geometry_pont_publisher.s
+
+# target to generate assembly for a file
+src/geometry_pont_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_pont_publisher.dir/build.make CMakeFiles/geometry_pont_publisher.dir/src/geometry_pont_publisher.cpp.s
+.PHONY : src/geometry_pont_publisher.cpp.s
 
 src/robotic_arm_kdl.o: src/robotic_arm_kdl.cpp.o
 .PHONY : src/robotic_arm_kdl.o
@@ -286,11 +323,15 @@ help:
 	@echo "... test"
 	@echo "... robotic_arm_kinematics_uninstall"
 	@echo "... uninstall"
-	@echo "... kinematics_node"
+	@echo "... geometry_point_subscriber"
+	@echo "... geometry_pont_publisher"
 	@echo "... ros_arm_kdl"
-	@echo "... src/kinematics_node.o"
-	@echo "... src/kinematics_node.i"
-	@echo "... src/kinematics_node.s"
+	@echo "... src/geometry_point_subscriber.o"
+	@echo "... src/geometry_point_subscriber.i"
+	@echo "... src/geometry_point_subscriber.s"
+	@echo "... src/geometry_pont_publisher.o"
+	@echo "... src/geometry_pont_publisher.i"
+	@echo "... src/geometry_pont_publisher.s"
 	@echo "... src/robotic_arm_kdl.o"
 	@echo "... src/robotic_arm_kdl.i"
 	@echo "... src/robotic_arm_kdl.s"

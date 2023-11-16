@@ -16,20 +16,18 @@ find_package(urdf REQUIRED)
 find_package(urdfdom REQUIRED)
 find_package(orocos_kdl_vendor REQUIRED)
 find_package(robotic_arm_description REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
-add_executable(kinematics_node src/kinematics_node.cpp)
-ament_target_dependencies(kinematics_node rclcpp trajectory_msgs builtin_interfaces)
 
 add_executable(ros_arm_kdl src/robotic_arm_kdl.cpp)
-ament_target_dependencies(ros_arm_kdl rclcpp std_msgs ament_index_cpp kdl_parser urdf urdfdom orocos_kdl_vendor)
+ament_target_dependencies(ros_arm_kdl rclcpp std_msgs ament_index_cpp kdl_parser urdf urdfdom orocos_kdl_vendor geometry_msgs)
 
+add_executable(geometry_pont_publisher src/geometry_pont_publisher.cpp)
+ament_target_dependencies(geometry_pont_publisher rclcpp geometry_msgs std_msgs)
 
+add_executable(geometry_point_subscriber src/geometry_point_subscriber.cpp)
+ament_target_dependencies(geometry_point_subscriber rclcpp geometry_msgs)
 
-install(
-  TARGETS
-  kinematics_node
-  DESTINATION lib/${PROJECT_NAME}
-)
 
 
 install(
@@ -38,16 +36,17 @@ install(
   DESTINATION lib/${PROJECT_NAME}
 )
 
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
-  set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
-  set(ament_cmake_cpplint_FOUND TRUE)
-  ament_lint_auto_find_test_dependencies()
-endif()
+install(
+  TARGETS
+  geometry_pont_publisher
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(
+  TARGETS
+  geometry_point_subscriber
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 ament_package()

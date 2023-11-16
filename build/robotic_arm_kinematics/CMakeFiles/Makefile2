@@ -63,8 +63,9 @@ CMAKE_BINARY_DIR = /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/roboti
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/kinematics_node.dir/all
 all: CMakeFiles/ros_arm_kdl.dir/all
+all: CMakeFiles/geometry_pont_publisher.dir/all
+all: CMakeFiles/geometry_point_subscriber.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,8 +75,9 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/robotic_arm_kinematics_uninstall.dir/clean
-clean: CMakeFiles/kinematics_node.dir/clean
 clean: CMakeFiles/ros_arm_kdl.dir/clean
+clean: CMakeFiles/geometry_pont_publisher.dir/clean
+clean: CMakeFiles/geometry_point_subscriber.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -131,39 +133,13 @@ CMakeFiles/robotic_arm_kinematics_uninstall.dir/clean:
 .PHONY : CMakeFiles/robotic_arm_kinematics_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/kinematics_node.dir
-
-# All Build rule for target.
-CMakeFiles/kinematics_node.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematics_node.dir/build.make CMakeFiles/kinematics_node.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematics_node.dir/build.make CMakeFiles/kinematics_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles --progress-num=1,2 "Built target kinematics_node"
-.PHONY : CMakeFiles/kinematics_node.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/kinematics_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/kinematics_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles 0
-.PHONY : CMakeFiles/kinematics_node.dir/rule
-
-# Convenience name for target.
-kinematics_node: CMakeFiles/kinematics_node.dir/rule
-.PHONY : kinematics_node
-
-# clean rule for target.
-CMakeFiles/kinematics_node.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematics_node.dir/build.make CMakeFiles/kinematics_node.dir/clean
-.PHONY : CMakeFiles/kinematics_node.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/ros_arm_kdl.dir
 
 # All Build rule for target.
 CMakeFiles/ros_arm_kdl.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_arm_kdl.dir/build.make CMakeFiles/ros_arm_kdl.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_arm_kdl.dir/build.make CMakeFiles/ros_arm_kdl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles --progress-num=3,4 "Built target ros_arm_kdl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles --progress-num=5,6 "Built target ros_arm_kdl"
 .PHONY : CMakeFiles/ros_arm_kdl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +157,58 @@ ros_arm_kdl: CMakeFiles/ros_arm_kdl.dir/rule
 CMakeFiles/ros_arm_kdl.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_arm_kdl.dir/build.make CMakeFiles/ros_arm_kdl.dir/clean
 .PHONY : CMakeFiles/ros_arm_kdl.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/geometry_pont_publisher.dir
+
+# All Build rule for target.
+CMakeFiles/geometry_pont_publisher.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_pont_publisher.dir/build.make CMakeFiles/geometry_pont_publisher.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_pont_publisher.dir/build.make CMakeFiles/geometry_pont_publisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles --progress-num=3,4 "Built target geometry_pont_publisher"
+.PHONY : CMakeFiles/geometry_pont_publisher.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/geometry_pont_publisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/geometry_pont_publisher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles 0
+.PHONY : CMakeFiles/geometry_pont_publisher.dir/rule
+
+# Convenience name for target.
+geometry_pont_publisher: CMakeFiles/geometry_pont_publisher.dir/rule
+.PHONY : geometry_pont_publisher
+
+# clean rule for target.
+CMakeFiles/geometry_pont_publisher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_pont_publisher.dir/build.make CMakeFiles/geometry_pont_publisher.dir/clean
+.PHONY : CMakeFiles/geometry_pont_publisher.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/geometry_point_subscriber.dir
+
+# All Build rule for target.
+CMakeFiles/geometry_point_subscriber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_point_subscriber.dir/build.make CMakeFiles/geometry_point_subscriber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_point_subscriber.dir/build.make CMakeFiles/geometry_point_subscriber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles --progress-num=1,2 "Built target geometry_point_subscriber"
+.PHONY : CMakeFiles/geometry_point_subscriber.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/geometry_point_subscriber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/geometry_point_subscriber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles 0
+.PHONY : CMakeFiles/geometry_point_subscriber.dir/rule
+
+# Convenience name for target.
+geometry_point_subscriber: CMakeFiles/geometry_point_subscriber.dir/rule
+.PHONY : geometry_point_subscriber
+
+# clean rule for target.
+CMakeFiles/geometry_point_subscriber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_point_subscriber.dir/build.make CMakeFiles/geometry_point_subscriber.dir/clean
+.PHONY : CMakeFiles/geometry_point_subscriber.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

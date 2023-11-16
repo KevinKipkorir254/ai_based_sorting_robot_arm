@@ -1,5 +1,6 @@
-/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/robotic_arm_kinematics/kinematics_node
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/robotic_arm_kinematics/ros_arm_kdl
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/robotic_arm_kinematics/geometry_pont_publisher
+/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/robotic_arm_kinematics/geometry_point_subscriber
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/ament_index/resource_index/package_run_dependencies/robotic_arm_kinematics
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/ament_index/resource_index/parent_prefix_path/robotic_arm_kinematics
 /home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/ament_prefix_path.sh

@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target kinematics_node[0m
+[35m[1mConsolidate compiler generated dependencies of target ros_arm_kdl[0m
+[35m[1mConsolidate compiler generated dependencies of target geometry_pont_publisher[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/geometry_point_subscriber.dir/src/geometry_point_subscriber.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.o[0m
+[ 50%] Built target ros_arm_kdl
+[ 75%] Built target geometry_pont_publisher

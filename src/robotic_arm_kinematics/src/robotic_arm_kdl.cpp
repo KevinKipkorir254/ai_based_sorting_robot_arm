@@ -6,6 +6,8 @@
 #include <rclcpp/rclcpp.hpp>
 #include <kdl_parser/kdl_parser.hpp>
 #include "std_msgs/msg/string.hpp"
+#include <std_msgs/msg/float32_multi_array.hpp>
+#include <geometry_msgs/msg/point.hpp>
 #include <ament_index_cpp/get_package_share_directory.hpp>
 #include <urdf_parser/urdf_parser.h>
 #include <kdl/frames_io.hpp>
@@ -18,6 +20,7 @@
 #include <iostream>
 #include <typeinfo>
 
+using std::placeholders::_1;
 
 
 
@@ -28,21 +31,14 @@ class KDL_publisher : public rclcpp::Node
     KDL_publisher()
     : Node("kdl_publisher"), count_(0)
     {
-      publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
-      
-
-    //   timer_ = this->create_wall_timer(
-    //   500ms, std::bind(&KDL_publisher::timer_callback, this));
+      publisher_ = this->create_publisher<std_msgs::msg::Float32MultiArray>("result", 10);
+      subscription_ = this->create_subscription<geometry_msgs::msg::Point>(
+      "topic", 10, std::bind(&KDL_publisher::compute_ik_and_publish, this, _1));
+      build_tree();
+   
     }
 
   private:
-    // void timer_callback()
-    // {
-    //   auto message = std_msgs::msg::String();
-    //   message.data = "Hello, world! " + std::to_string(count_++);
-    //   RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
-    //   publisher_->publish(message);
-    // }
 
     void build_tree()
     {     
@@ -82,10 +78,6 @@ class KDL_publisher : public rclcpp::Node
           RCLCPP_INFO(this->get_logger(), "Tree created succesfully");
         }
 
-        
-
-        //create chain
-        KDL::Chain kdl_chain;
         if (!my_tree.getChain("world", "tool_0", kdl_chain))
         {
             RCLCPP_INFO(this->get_logger(), "Failed to get a chain");
@@ -112,10 +104,6 @@ class KDL_publisher : public rclcpp::Node
         std::cout << "Pose: "<< T <<std::endl;
 
 
-        Eigen::Matrix<double,6,1> L;
-        L(0)=1; L(1) = 1; L(2) = 1;
-	      L(3)=0.01;L(4)=0.01;L(5)=0.01;
-
         KDL::ChainIkSolverPos_LMA solver(kdl_chain);
 
         
@@ -124,43 +112,41 @@ class KDL_publisher : public rclcpp::Node
         KDL::JntArray q_init(n);
         KDL::JntArray q_sol(n);
 
-        KDL::Frame pos_goal;
         
         q_.data.setRandom();
         fksolver.JntToCart(q_, pos_goal);
 
         std::cout << "q:" << q_<<std::endl;
 
-        int retval;
+    }
 
-        double x , y, z;
-
-        std::cout << "Enter x positions: ";
-        std::cin >> x;
-
-        std::cout << "Enter y position: ";
-        std::cin >> y;
-
-        std::cout << "Enter z position: ";
-        std::cin >> z;
-        
-
+    void compute_ik_and_publish(const geometry_msgs::msg::Point &point)
+    {
+              
+	      int n = kdl_chain.getNrOfJoints();
+        auto msg = std_msgs::msg::Float32MultiArray();
+        KDL::JntArray q_(n);
+        KDL::JntArray q_init(n);
+        KDL::JntArray q_sol(n);
+      
+        KDL::ChainIkSolverPos_LMA solver(kdl_chain);
         pos_goal.M = KDL::Rotation::RPY( 0.0, 0.0, 0.0);
-        pos_goal.p = KDL::Vector( x, y, z);
+        pos_goal.p = KDL::Vector( point.x, point.y, point.z);
         retval = solver.CartToJnt(q_init, pos_goal,q_sol);
-
-        
-        std::cout << "pos_goal:" << pos_goal <<std::endl;
-        std::cout << "q sol:" << q_sol <<std::endl;
+        // msg.data = {(float)q_sol(1), (float)q_sol(2), (float)q_sol(3), (float)q_sol(4)};
+        // publisher_->publish(msg);
         RCLCPP_INFO(this->get_logger(), "Done");
-
-
+      
     }
 
 
-
+    
+    KDL::Chain kdl_chain;
+    KDL::Frame pos_goal;
+    int retval;
     rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+    rclcpp::Publisher<std_msgs::msg::Float32MultiArray>::SharedPtr publisher_;
+    rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr subscription_;
     size_t count_;
 };
 

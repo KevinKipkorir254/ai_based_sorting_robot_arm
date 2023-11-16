@@ -693,6 +693,18 @@ CMakeFiles/ros_arm_kdl.dir/src/robotic_arm_kdl.cpp.o: /home/kevo/ros_ws/src/ai_b
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/float32_multi_array.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
   /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
   /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/humble/include/urdfdom/urdf_parser/urdf_parser.h \
@@ -1223,6 +1235,20 @@ CMakeFiles/ros_arm_kdl.dir/src/robotic_arm_kdl.cpp.o: /home/kevo/ros_ws/src/ai_b
 
 /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__struct.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/float32_multi_array.hpp:
+
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
@@ -1406,6 +1432,8 @@ CMakeFiles/ros_arm_kdl.dir/src/robotic_arm_kdl.cpp.o: /home/kevo/ros_ws/src/ai_b
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node.hpp:
 
@@ -1619,6 +1647,8 @@ CMakeFiles/ros_arm_kdl.dir/src/robotic_arm_kdl.cpp.o: /home/kevo/ros_ws/src/ai_b
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__traits.hpp:
+
 /usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
@@ -1754,6 +1784,8 @@ CMakeFiles/ros_arm_kdl.dir/src/robotic_arm_kdl.cpp.o: /home/kevo/ros_ws/src/ai_b
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
 
@@ -2233,6 +2265,8 @@ CMakeFiles/ros_arm_kdl.dir/src/robotic_arm_kdl.cpp.o: /home/kevo/ros_ws/src/ai_b
 
 /usr/include/c++/11/istream:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
@@ -2702,6 +2736,8 @@ CMakeFiles/ros_arm_kdl.dir/src/robotic_arm_kdl.cpp.o: /home/kevo/ros_ws/src/ai_b
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
 
